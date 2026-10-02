@@ -1,0 +1,28 @@
+RAM INTERNATIONAL SCHOOL - EDIT HERE
+
+1. Run:
+   npm install
+   npm run dev
+
+2. Open the local URL shown by Vite.
+
+3. Images:
+   public/images/hero/school-main.jpg
+   public/images/hero/school-main-2.jpg
+   public/images/hero/school-main-3.jpg
+   public/images/admission/admission-banner.jpg
+   public/images/leadership/
+   public/images/academics/
+   public/images/development/
+   public/images/activities/
+   public/images/gallery/
+
+Replace images using the SAME filename to update the website without changing React code.
+
+Main structure:
+Header -> Hero -> Admission -> About -> Leadership -> Academics -> 6 Development Areas -> Activities/Amenities -> Gallery -> Contact -> Footer
+
+School Advantage section is intentionally NOT included.
+
+To add a new activity, add its image and one item in the activities array in src/App.jsx.
+To add a new section, add the section in App.jsx and its styling in App.css.
